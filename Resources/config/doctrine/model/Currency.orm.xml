@@ -22,7 +22,7 @@
             <generator strategy="AUTO" />
         </id>
 
-        <field name="code" column="code" type="string" length="3" unique="true"/>
+        <field name="code" column="code" type="string" length="10" unique="true"/>
 
         <field name="createdAt" column="created_at" type="datetime">
             <gedmo:timestampable on="create"/>
