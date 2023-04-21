@@ -69,7 +69,7 @@ final class Configuration implements ConfigurationInterface
                                 ->end()
                             ->end()
                         ->end()
-                        ->arrayNode('exchange_rate')
+                        ->arrayNode('currency_rate')
                             ->addDefaultsIfNotSet()
                             ->children()
                                 ->variableNode('options')->end()
